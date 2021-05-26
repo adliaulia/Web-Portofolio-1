@@ -1,5 +1,5 @@
 /* Style css */
-
+/* #9dc6d858 */
 .homepage{}
 *{
     padding: 0;
@@ -161,16 +161,20 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    
 }
 .b{
+    border:transparent;
+    padding: 0px;
+    box-shadow: 5px 8px 10px 2px #c6cccc;
+
+    border-radius: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     width: 250px;
     height: 300px;
-    background-color:#9dc6d858;
+    background-color:white;
     margin: 20px;
     color:black;
     font-size: 25px;
@@ -178,10 +182,13 @@ body {
 .b:active, .b:hover{
     transform: scale(1.1);
 }
-#box2 {
-    border:transparent;
-    padding: 0px;
-    box-shadow: 5px 8px 10px 0 #c6cccc;
+.imgexp{
+    /* width: 150px; */
+    height: 150px;
+}
+ul li article footer .button{
+    color: honeydew;
+    font-size: large;
 }
 /* ========================================== */
 
