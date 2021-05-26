@@ -143,6 +143,7 @@ body {
 }
 .buttoninverse:active, .buttoninverse:hover{
     background:#1d4e89;
+    color:honeydew;
     transition: .5s;
     transform: scale(1.1);
 }
