@@ -14,14 +14,35 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+header{
+    /* padding: 50px; */
+}
+main{
+    margin: 0 auto;
+    /* padding: 30px 20px; */
+    /* min-height: calc(100vh - 211px -); */
+    min-height: calc(100vh - 80px - 90px);
+}
+footer{
+    /* padding: 0;
+    margin: 0; */
+}
 
-.row0 {height: 80px; position: relative;; background-color:#1d4e89}
+.row0 {height: 80px; position: relative; background-color:#1d4e89}
 .row1 {height: 450px; position:relative; align-items: center;background-color: white;}
-.row2 {height: 600px; position:relative;}
+.row2 {height: 800px; position:relative;}
 .row3 {height: 90px; position: relative;}
 /* ========================================== */
 
 /* == Row 0 == */
+.navbar{
+    opacity: 0.95;
+    position: relative;
+    background: transparent;
+    border:transparent;
+    padding: 0px;
+    box-shadow: 5px 8px 10px 2px #;
+}
 .row0_left, .row0_right{ display:flex; display:block; float:none} 
 .row0_left {float: left;}
 .row0_right {float: right; margin-right: 20px;}
@@ -192,7 +213,11 @@ ul li article footer .button{
 }
 /* ========================================== */
 
-/* == Row 3 == */
+/* == Row 3, footer */
+#footer{
+    clear: both;
+    position: relative;
+}
 .row3{
     background-color:rgb(17, 17, 17);
     color: white;
