@@ -28,7 +28,7 @@ footer{
 
 .row0 {height: 80px; position: relative; background-color:#1d4e89}
 .row1 {height: 450px; position:relative; align-items: center;background-color: white;}
-.row2 {height: 800px; position:relative;}
+.row2 {height: 600px; position:relative;}
 .row3 {height: 90px; position: relative;}
 /* ========================================== */
 
@@ -84,14 +84,19 @@ footer{
 /* ========================================== */
 
 /* == Row 1 == */
+/* Groupping with commas */
 .row1_left, .row1_right { height: 450px;}
 .row1_left {
     float: left;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    display: flex;
+    width: 30%;
+}
 .row1_right {
     float: right;
-    min-width: 1100px;
+    /* min-width: 1100px; */
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,23 +106,25 @@ footer{
 .heading_1{
     font-size: 30px;
     font-weight: 100;
-    padding-left: 300px;
+    padding-left: 100px;
     color:black;
 }    
 .heading_2{
     font-size: 40px;
     font-weight: bold ;
-    padding-left: 300px;
+    padding-left: 100px;
     color:black;
 }
 .desc1{
-    padding-left: 300px;
+    padding-left: 100px;
 }
 .profile{
-    display: flex;
-    position:absolute;
-    margin:50px 0px 0px 80px;
-    height: 350px;
+    /* position: absolute; */
+    position: relative;
+    /* margin:50px 0px 0px 80px; */
+    /* height: 350px; */
+    height: 25vw;
+    width: 50vh;
 }
 .profile:active, .profile:hover{
     transform: scale(1.05);
@@ -129,7 +136,7 @@ footer{
     box-shadow: 5px 5px 10px 0 #c6cccc;
 }
 .nospace, .inline, .pushright{
-    padding-left:290px;
+    padding-left: 90px;
 }
 .button, .buttoninverse{
     float: left;
