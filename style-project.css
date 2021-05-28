@@ -139,7 +139,7 @@ footer{
 .nospace, .inline, .pushright{
     padding-left: 90px;
 }
-.button, .buttoninverse{
+div ul li .button, .buttoninverse{
     float: left;
     margin: 10px;
 }
@@ -214,9 +214,16 @@ footer{
     /* width: 150px; */
     height: 150px;
 }
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 ul li article footer .button{
+    float: none;
     color: honeydew;
     font-size: large;
+    margin: 0;
 }
 /* ========================================== */
 
