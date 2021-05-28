@@ -131,7 +131,7 @@ article {
     margin-left: 10%;
     margin-right: 10%;
 }
-.expertise{
+.project{
     font-size: 50px;
     padding: 40px;
     color: black;
@@ -162,7 +162,7 @@ article {
 .b:active, .b:hover{
     transform: scale(1.1);
 }
-.imgexp{
+.imgproj{
     /* width: 150px; */
     height: 150px;
 }
