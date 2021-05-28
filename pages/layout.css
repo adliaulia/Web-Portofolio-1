@@ -114,7 +114,7 @@ footer{
     float: right;
     flex-direction: column;
     width: 50%;
-    background-color: honeydew;
+    background-color: #9dc6d858;
 }
 article {
     align-items: center;
