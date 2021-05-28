@@ -121,10 +121,10 @@ article {
     opacity: 5;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: justify;
 }
 article p, .heading_1{
     padding-bottom: 10px;
+    text-align: justify;
 }
 .list_skill li{
     list-style-type: circle;
