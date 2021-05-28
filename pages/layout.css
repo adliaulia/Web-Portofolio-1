@@ -1,0 +1,135 @@
+/* @import url("../style-project.css"); */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 18px;
+}
+main{
+    margin: 0 auto;
+    min-height: calc(100vh - 80px - 90px);
+}
+footer{
+    /*  */
+}
+.wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+.row0 {height: 80px; position: relative; background-color:#1d4e89}
+.row1 {height: 450px; position:relative; align-items: center;background-color: white;}
+
+.row3 {height: 90px; position: relative;}
+/* == Row 0 == */
+.navbar{
+    opacity: 0.95;
+    position: relative;
+    background: transparent;
+    border:transparent;
+    padding: 0px;
+    box-shadow: 5px 8px 10px 2px #;
+}
+.row0_left, .row0_right{ display:flex; display:block; float:none} 
+.row0_left {float: left;}
+.row0_right {float: right; margin-right: 20px;}
+.row0_right ul li{
+    display: inline-block;
+    line-height: 20px;
+    padding: 25px;
+}
+.row0_right ul li a{
+    font-size: auto;
+    font-family: Arial;
+    color: honeydew;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+.row0_left img{
+        padding:10px 0 0 20px;
+        margin:0; 
+        justify-content: center;
+        height: 80px;
+}
+.nav{
+    background:#00b3ca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav:active, .nav:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.navinverse{
+    display: flex;
+}
+.navinverse:active, .navinverse:hover{
+    transform: scale(1.1);
+    background:#00b3ca;
+    transition: .5s;
+}
+/* ========================================== */
+/* == Row1 == */
+.row1_left, .row1_right {height: 450px;}
+.row1_left{
+    display: flex;
+    float: left;
+    width: 50%;
+    background-color: honeydew;
+    opacity: .3;
+}
+.row1_right{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 50%;
+    background-color: honeydew;
+    opacity: .7;
+}
+
+
+/* == Row 2 == */
+
+/* == Row 3 == */
+#footer{
+    clear: both;
+    position: relative;
+}
+.row3{
+    margin-top:50px;
+    background-color:rgb(17, 17, 17);
+    color: white;
+    
+}
+.row3_left, .row3_right{
+    display: flex;
+    flex-direction: row;
+    
+}
+.row3_left{
+    float:left;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.row3_right{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.c{
+    margin-left: 20px;
+    height: 70px; 
+}
+.d{
+
+    font-weight: 100;
+    margin:33px 0px 33px 50px;
+}
+
+/* ========================================== */

@@ -1,6 +1,7 @@
 /* Style css */
 /* #9dc6d858 */
-.homepage{}
+.home, .page{}
+.wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
 *{
     padding: 0;
     margin: 0;
@@ -224,6 +225,7 @@ ul li article footer .button{
     position: relative;
 }
 .row3{
+    margin-top:50px;
     background-color:rgb(17, 17, 17);
     color: white;
     
